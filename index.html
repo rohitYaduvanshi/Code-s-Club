@@ -5,13 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coder's Club</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2"></script>
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap"
@@ -30,14 +39,14 @@
             </div>
 
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Event</a></li>
-                <li><a href="#">Workshops</a></li>
-                <li><a href="#">Competitions</a></li>
-                <li><a href="#">Announcements</a></li>
-                <li><a href="#">Merchandise</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="event/event.html">Event</a></li>
+                <li><a href="workshop/workshop.html">Workshops</a></li>
+                <li><a href="competition/competition.html">Competitions</a></li>
+                <li><a href="announcement/announcement">Announcements</a></li>
+                <li><a href="merchandise/merchandise.html">Merchandise</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
 
             <div class="head-right">
@@ -110,310 +119,277 @@
 
             <div class="companies-list">
                 <div class="company">
-                    <img src="images/company1.png" alt="company1">
-                    <p>Memric</p>
+                    <img src="images/logo.svg" alt="company1">
+                    <p>Hackathon</p>
                 </div>
 
                 <div class="company">
-                    <img src="images/company2.png" alt="company1">
-                    <p>Ipsum</p>
+                    <img src="images/company 2.png" alt="company1">
+                    <p>SBH</p>
                 </div>
 
                 <div class="company">
-                    <img src="images/company3.png" alt="company1">
-                    <p>MCBRAIN</p>
+                    <img src="images/company.png" alt="company1">
+                    <p>SIH</p>
                 </div>
-
                 <div class="company">
                     <img src="images/company4.png" alt="company1">
-                    <p>Quanex</p>
+                    <p>MAGNUS</p>
                 </div>
 
-                <div class="company">
-                    <img src="images/company5.png" alt="company1">
-                    <p>Synthet</p>
+            </div>
+        </section>
+        <!-- --------------------------------------------------------------------- -->
+        <section>
+            <div id="signinPage" class="signin-page-box">
+                <div class="signin-page">
+                    <h1>Sign In</h1>
+                    <input type="text" placeholder="User Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Password">
+                    <button>Sign in</button>
+                    <p>Login</p>
+                    <div id="closeIcon"><i class='bx bx-x'></i></div>
                 </div>
             </div>
         </section>
-
-        <div id="signinPage" class="signin-page-box">
-            <div class="signin-page">
-                <h1>Sign In</h1>
-                <input type="text" placeholder="User Name">
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Password">
-                <button>Sign in</button>
-                <p>Login</p>
-                <div id="closeIcon"><i class='bx bx-x'></i></div>
-            </div>
-        </div>
+        <!-- Resource -->
 
         <section class="features-section">
-            <h1>Chat Smarter, Not Harder. with MCBRAIN</h1>
+            <h1>Workshops & Learning Resources</h1>
 
-            <div class="features-gradient"></div>
-
-            <div class="features-card-box">
-                <div class="features-card autoDisplay">
-                    <h2>Ask Anything</h2>
-                    <p>Lets users quickly find answers to their questions without having to search through multiple
-                        sources.</p>
-                    <div class="explore-more">
-                        <img src="images/feature1.png" alt="">
-                        <a href="#">Explore More <i class='bx bx-link-external'></i></a>
-                    </div>
-
-                    <img class="features-back-img" src="images/features back img.png" alt="">
+            <div class="card-box">
+                <div class="card" style="--color: #ef476f;">
+                    <i class="fa-solid fa-code"></i>
+                    <div class="title">Explore Workshops</div>
+                    <div class="description">Explore a range of interactive workshops tailored for both beginners and advanced 
+                        coders, covering everything from Python basics to cutting-edge AI trends. Learn, build, and grow with
+                         hands-on guidance from industry experts.</div>
                 </div>
-
-                <div class="features-card autoDisplay">
-                    <h2>Improve Everyday</h2>
-                    <p>The app uses natural language processing to understand user queries and provide accurate and
-                        relevant responses.</p>
-
-                    <div class="explore-more">
-                        <img src="images/feature2.png" alt="">
-                        <a href="#">Explore More <i class='bx bx-link-external'></i></a>
-                    </div>
-
-                    <img class="features-back-img" src="images/features back img.png" alt="">
+                <div class="card" style="--color: #ffd23f;">
+                    <i class="fa-solid fa-robot"></i>
+                    <div class="title">Learning Resources</div>
+                    <div class="description">Dive into our curated collection of programming blogs, cheat sheets, open-source tools, and video tutorials to strengthen
+                         your coding skills. Whether you're starting out or refining your expertise, we've got resources to guide you every step of the way.
+                        .</div>
                 </div>
-
-                <div class="features-card autoDisplay">
-                    <h2>Conect Everywere</h2>
-                    <p>Connect with the AI chatbot from anywhere, on any device, making it more accessible and
-                        convenient.</p>
-
-                    <div class="explore-more">
-                        <img src="images/feature3.png" alt="">
-                        <a href="#">Explore More <i class='bx bx-link-external'></i></a>
-                    </div>
-
-                    <img class="features-back-img" src="images/features back img.png" alt="">
+                <div class="card" style="--color: #00a6ed;">
+                    <i class="fa-brands fa-figma"></i>
+                    <div class="title">Our Milestones</div>
+                    <div class="description">Celebrate the achievements of our coder's club as we grow together! From winning prestigious hackathons to successfully 
+                        hosting coding bootcamps and tech fests, our journey is filled with remarkable moments. Join us in building a legacy of innovation and collaboration.</div>
                 </div>
-
-                <div class="features-card autoDisplay">
-                    <h2>Fast Responding</h2>
-                    <p>Lets users quickly find answers to their questions without having to search through multiple
-                        sources.</p>
-
-                    <div class="explore-more">
-                        <img src="images/feature4.png" alt="">
-                        <a href="#">Explore More <i class='bx bx-link-external'></i></a>
-                    </div>
-
-                    <img class="features-back-img" src="images/features back img.png" alt="">
-                </div>
-
-                <div class="features-card autoDisplay">
-                    <h2>Ask Anything</h2>
-                    <p>Lets users quickly find answers to their questions without having to search through multiple
-                        sources.</p>
-
-                    <div class="explore-more">
-                        <img src="images/feature1.png" alt="">
-                        <a href="#">Explore More <i class='bx bx-link-external'></i></a>
-                    </div>
-
-                    <img class="features-back-img" src="images/features back img.png" alt="">
-                </div>
-
-                <div class="features-card autoDisplay">
-                    <h2>Ask Anything</h2>
-                    <p>Lets users quickly find answers to their questions without having to search through multiple
-                        sources.</p>
-
-                    <div class="explore-more">
-                        <img src="images/feature1.png" alt="">
-                        <a href="#">Explore More <i class='bx bx-link-external'></i></a>
-                    </div>
-
-                    <img class="features-back-img" src="images/features back img.png" alt="">
-                </div>
-            </div>
-        </section>
-
-
-        <section class="chatApp-section">
-            <div class="left-container">
-                <h1 class="fadeInLeft">AI Chat App for seamless collaboration</h1>
-                <p class="fadeInLeft"><img src="images/Check circle.png" alt=""> Seamless Integration</p>
-
-                <h2 class="fadeInLeft">With smart automation and top-notch security, it's the perfect solution for teams
-                    looking to work smarter.</h2>
-
-                <p class="fadeInLeft"><img src="images/Check circle.png" alt=""> Smart Automation</p>
-                <p class="fadeInLeft"><img src="images/Check circle.png" alt=""> Top-notch Security</p>
-
-                <div class="button-box fadeInLeft">
-                    <button id="signinButton">TRY IT NOW</button>
-                </div>
-            </div>
-
-            <div class="right-container">
-                <h2 class="fadeInRight">With smart automation and top-notch security, it's the perfect solution for
-                    teams looking to work smarter.</h2>
-                <img class="fadeInRight" src="images/tools group.png" alt="">
             </div>
         </section>
 
         <section class="generative-section">
-            <h1>Gernerative AI made for creators</h1>
-            <p>MCBRAIN unlocks the potential of AI-powerd Applications</p>
+            <h1>🚀 Join the Coder's Club for an Unmatched Coding Experience!</h1>
+            <p>🚀 Learn, Build, and Elevate Your Coding Journey!</p>
 
             <div class="grid-box">
                 <div class="grid-card grid1 autoBlur">
                     <img src="images/service-1.png" alt="" class="grid1-robot-img">
                     <div class="info">
-                        <h2>Smartest AI</h2>
-                        <h4>MCBRSIN unlocks the potential of AI-powered applications</h4>
-                        <p><img src="images/Check circle.png" alt=""> Photo Generating</p>
-                        <p><img src="images/Check circle.png" alt=""> Photo Enhance</p>
-                        <p><img src="images/Check circle.png" alt=""> Seamless Integration</p>
+                        <h2>Unique & Engaging</h2>
+                        <p><img src="images/Check circle.png" alt="">1️⃣ 🚀 Become a Coder Today!</p>
+                        <p><img src="images/Check circle.png" alt="">2️⃣ 💡 Start Your Coding Journey Now!</p>
+                        <p><img src="images/Check circle.png" alt="">3️⃣ 👨‍💻 Unlock Your Coding Potential!</p>
+                        <p><img src="images/Check circle.png" alt="">4️⃣ 🏆 Join & Compete with the Best!</p>
+                        <p><img src="images/Check circle.png" alt="">5️⃣ 📚 Learn, Build & Grow – Join Us!</p>
+                        <p><img src="images/Check circle.png" alt="">6️⃣ 🔥 Elevate Your Coding Skills – Join Now!</p>
+                        <p><img src="images/Check circle.png" alt="">7️⃣ 🤝 Connect, Code & Succeed!</p>
                     </div>
                 </div>
+        </section>
 
-                <div class="grid-card grid2 autoBlur">
-                    <img src="images/service-2.png" alt="">
-                    <div>
-                        <h2>Hey MCBBRAIN, Enhance this photo</h2>
-                    </div>
+        <section class="generative-section">
 
-                    <h1>Photo Editing</h1>
-                    <p>Automatically enhance your photos using our AI app's photo editing feature. Try it now!</p>
-                </div>
+            <h1>Timeline History - Current</h1>
+            <div class="timeline">
 
-                <div class="grid-card grid3 autoBlur">
-                    <div class="info">
-                        <h2>Video Generation</h2>
-                        <h4>The world’s most powerful AI photo and video art generation engine. What will you create?
-                        </h4>
+                <ul class="timeline">
 
-                        <div class="info-icons">
-                            <div class="icon">
-                                <i class='bx bxs-extension'></i>
+                    <!-- Item 1 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Established</span>
+                                <span class="time-wrapper"><span class="time">2022 - present</span></span>
                             </div>
-
-                            <div class="icon">
-                                <i class='bx bx-signal-5'></i>
-                            </div>
-
-                            <div class="icon">
-                                <i class='bx bxs-videos'></i>
-                            </div>
-
-                            <div class="icon">
-                                <i class='bx bx-wifi'></i>
-                            </div>
-
-                            <div class="icon">
-                                <i class='bx bx-reset'></i>
+                            <div class="content">
+                                <div class="desc">For the first time, a Coder's Club was established at BBIT College,
+                                    with significant contributions from many individuals.</div>
+                                <div class="image-upload">
+                                    <label for="fileInput">
+                                        <div class="image-box">
+                                            <img id="previewImage" class="direction-r" src="images/bb.jpg"
+                                                alt="Freelancer Work">
+                                        </div>
+                                    </label>
+                                    <input type="file" id="fileInput" accept="image/*" style="display: none;">
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
-                    <img src="images/service-3.png" alt="">
+                    <!-- Item 2 -->
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">Launched</span>
+                                <span class="time-wrapper"><span class="time">2022 - 2023</span></span>
+                            </div>
+                            <div class="content">
+                                <div class="desc">For the first time, a Coder's Club was established at BBIT College,
+                                    with significant contributions from many individuals.</div>
+                                <div class="image-upload">
+                                    <label for="fileInput">
+                                        <div class="image-box">
+                                            <img id="previewImage" class="direction-l" src="images/padhakoo.jpg"
+                                                alt="Freelancer Work">
+                                        </div>
+                                    </label>
+                                    <input type="file" id="fileInput" accept="image/*" style="display: none;">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Item 3 -->
+                    <li>
+                        <div class="direction-r">
+                            <div class="flag-wrapper">
+                                <span class="flag">Launched</span>
+                                <span class="time-wrapper"><span class="time">2023 -2024</span></span>
+                            </div>
+                            <div class="content">
+                                <div class="desc">Under Developing</div>
+                                <div class="image-upload">
+                                    <label for="fileInput">
+                                        <div class="image-box">
+                                            <img id="previewImage" class="direction-r" src="images/padhakoo.jpg"
+                                                alt="Freelancer Work">
+                                        </div>
+                                    </label>
+                                    <input type="file" id="fileInput" accept="image/*" style="display: none;">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="direction-l">
+                            <div class="flag-wrapper">
+                                <span class="flag">Launched</span>
+                                <span class="time-wrapper"><span class="time">2024 - current</span></span>
+                            </div>
+                            <div class="content">
+                                <div class="desc">Under Developing</div>
+                                <div class="image-upload">
+                                    <label for="fileInput">
+                                        <div class="image-box">
+                                            <img id="previewImage" class="direction-l" src="images/bb.jpg"
+                                                alt="Freelancer Work">
+                                        </div>
+                                    </label>
+                                    <input type="file" id="fileInput" accept="image/*" style="display: none;">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+        </section>
+
+        <section  class="generative-section id="team">
+            <div class="center-cent">
+                <h1>Founders and Organizers of Coder's Club </h1>
+            </div>
+
+            <div class="team-content">
+                <div class="box-item">
+                    <img src="images/01.png">
+                    <h4>Coder Bhai</h4>
+                    <h5>Developer</h5>
+                    <div class="iconss">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
                 </div>
 
-                <div class="grid-card grid4 autoBlur">
-                    <img src="images/service-4.png" alt="" class="grid4-robot-img">
-                    <div class="info">
-                        <h2>Smartest AI</h2>
-                        <h4>MCBRSIN unlocks the potential of AI-powered applications</h4>
-                        <p><img src="images/Check circle.png" alt=""> Music Generating</p>
-                        <p><img src="images/Check circle.png" alt=""> Voice Enhance</p>
-                        <p><img src="images/Check circle.png" alt=""> Seamless Integration</p>
+                <div class="box-item">
+                    <img src="images/02.png">
+                    <h4>Coder Bhai</h4>
+                    <h5>Developer</h5>
+                    <div class="iconss">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
                     </div>
                 </div>
+
+                <div class="box-item">
+                    <img src="images/03.png">
+                    <h4>Coder Bhai</h4>
+                    <h5>Developer</h5>
+                    <div class="iconss">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="box-item">
+                    <img src="images/04.png">
+                    <h4>Coder Bhai</h4>
+                    <h5>Developer</h5>
+                    <div class="iconss">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+
             </div>
         </section>
 
-        <section class="pricing-section">
-            <div class="pricing-img-box">
-                <img class="parallax" data-speed="4" src="images/pricing-parallax.png" alt="">
-                <img src="images/magical-glob.png" alt="">
-            </div>
 
-            <h1 class="title">Pay once, use forever</h1>
 
-            <div class="pricing-container">
-                <div class="price-box">
-                    <h1>Basic</h1>
-                    <h2>AI chatbot, Personalized recommendations</h2>
-                    <h3>$0</h3>
-                    <button>GET STARED</button>
 
-                    <p><img src="images/Check circle.png" alt=""> An AI chatbot that can understand your queries</p>
-
-                    <p><img src="images/Check circle.png" alt=""> An AI chatbot that can understand your queries</p>
-
-                    <p><img src="images/Check circle.png" alt=""> An AI chatbot that can understand your queries</p>
-                </div>
-
-                <div class="price-box">
-                    <h1>Premium</h1>
-                    <h2>Advanced AI chatbot, priority support, analytics dashboard</h2>
-                    <h3>$9.99</h3>
-                    <button>GET STARED</button>
-
-                    <p><img src="images/Check circle.png" alt=""> An AI chatbot that can understand your queries</p>
-
-                    <p><img src="images/Check circle.png" alt=""> An AI chatbot that can understand your queries</p>
-
-                    <p><img src="images/Check circle.png" alt=""> An AI chatbot that can understand your queries</p>
-                </div>
-
-                <div class="price-box">
-                    <h1>Enterprise</h1>
-                    <h2>Custom AI chatbot, advanced analytics, dedicated account</h2>
-                    <h3>$99.99</h3>
-                    <button>GET STARED</button>
-
-                    <p><img src="images/Check circle.png" alt=""> An AI chatbot that can understand your queries</p>
-
-                    <p><img src="images/Check circle.png" alt=""> An AI chatbot that can understand your queries</p>
-
-                    <p><img src="images/Check circle.png" alt=""> An AI chatbot that can understand your queries</p>
-                </div>
-            </div>
-            <a href="#">SEE THE FULL DETAILS</a>
-        </section>
 
         <seccction class="roadmap-section">
             <h1>What we're working on</h1>
 
             <div class="roadmap-cards-box">
                 <div class="roadmap-card autoBlur">
-                    <img src="images/roadmap-1.png" alt="">
-                    <h2>Voice Recognition</h2>
-                    <p>Enable the chatbot to understand and respond to voice commands, making it easier for users to
-                        interact with the app hands-free.</p>
+                    <img src="images/vote.svg" alt="">
+                    <h2>President Election</h2>
+                    <p>Our college is preparing for the second presidential election, which is highly significant. Alongside this, a core community will be formed.</p>
                 </div>
 
                 <div class="roadmap-card autoBlur">
-                    <img src="images/roadmap-2.png" alt="">
-                    <h2>Voice Recognition</h2>
-                    <p>Enable the chatbot to understand and respond to voice commands, making it easier for users to
-                        interact with the app hands-free.</p>
+                    <img src="images/competition.svg" alt="">
+                    <h2>Hackathon / Competitions</h2>
+                    <p>Hackathons are organized at BBIT College and will continue to be held, along with various other competitions.</p>
                 </div>
 
                 <div class="roadmap-card autoBlur">
-                    <img src="images/roadmap-3.png" alt="">
-                    <h2>Voice Recognition</h2>
-                    <p>Enable the chatbot to understand and respond to voice commands, making it easier for users to
-                        interact with the app hands-free.</p>
+                    <img src="images/announcements.svg" alt="">
+                    <h2>Announcements</h2>
+                    <p>Any tech-related notices from our college will be displayed in the announcements section.</p>
                 </div>
 
                 <div class="roadmap-card autoBlur">
-                    <img src="images/roadmap-4.png" alt="">
-                    <h2>Voice Recognition</h2>
-                    <p>Enable the chatbot to understand and respond to voice commands, making it easier for users to
-                        interact with the app hands-free.</p>
+                    <img src="images/free.svg" alt="">
+                    <h2>Free Resources</h2>
+                    <p>Our community may occasionally provide free resources for you.</p>
                 </div>
             </div>
 
             <div class="button-box">
-                <button>OUR ROADMAP</button>
+                <button>About Us</button>
             </div>
 
             <div class="roadmap-gradient"></div>
@@ -431,7 +407,7 @@
 
     </div>
 
-    <script src="app.js"></script>
+    <script src="script/app.js"></script>
 </body>
 
 </html>
